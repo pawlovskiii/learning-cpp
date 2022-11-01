@@ -6,4 +6,4 @@
 
 ## General info
 
-Within the repository, I'll share my learning curve in the basics of C++.
+Within the repository, I'll share my journey through mastering C++. I'm working through the tutorial from [FreeCodeCamp](https://www.youtube.com/watch?v=8jLOx1hD3_o&t=11s&ab_channel=freeCodeCamp.org).
