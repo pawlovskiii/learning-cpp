@@ -1,13 +1,18 @@
 #include <iostream>
 
+
+int addNums(int firstNum, int secondNum) {
+    return firstNum + secondNum;
+}
+
+
 int main(){
     
-    // Compile Time Error
-    std::cout << "Hello World!" << std::endl;
+    int firstNum {12};
+    int secondNum {99};
 
-    // Run Time Error
-    int value = 7/0;
-    std::cout << "value :" << value << std::endl;
-
+    std::cout << firstNum << std::endl;
+    std::cout << secondNum << std::endl;
+    std::cout << addNums(firstNum, secondNum) << std::endl;
     return 0;
 }
