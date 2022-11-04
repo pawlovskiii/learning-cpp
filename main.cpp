@@ -1,18 +1,17 @@
 #include <iostream>
 
-
-int addNums(int firstNum, int secondNum) {
-    return firstNum + secondNum;
-}
-
-
 int main(){
-    
-    int firstNum {12};
-    int secondNum {99};
 
-    std::cout << firstNum << std::endl;
-    std::cout << secondNum << std::endl;
-    std::cout << addNums(firstNum, secondNum) << std::endl;
-    return 0;
+    int age;
+    std::string name;
+
+    std::cout << "Type your name: " << std::endl;
+    std::cin >> name;
+
+    std::cout << "Type your age: " << std::endl;
+    std::cin >> age;
+
+    std::cout << "Hello " << name << "! You are " << age << " years old." << std::endl;
+
+    return 0;   
 }
