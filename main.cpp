@@ -2,16 +2,15 @@
 
 int main(){
 
-    int age;
-    std::string full_name;
+    int scores[10];
 
-    std::cout << "Type your full name: " << std::endl;
-    std::getline(std::cin, full_name);
+    for (size_t i{0}; i < 10; i++) {
+        scores[i] = i * 3;
+    }
 
-    std::cout << "Type your age: " << std::endl;
-    std::cin >> age;
-
-    std::cout << "Hello " << full_name << "! You are " << age << " years old." << std::endl;
+    for (int i = 0; i < 10; i++) {
+        std::cout << scores[i] << std::endl; 
+    }
 
     return 0;   
 }
