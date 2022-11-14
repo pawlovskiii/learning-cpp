@@ -1,18 +1,13 @@
 #include <iostream>
-#include<bits/stdc++.h>
-using namespace std;
+
+void foo(int x) {
+    std::cout << x << std::endl;
+   }
 
 int main(){
 
-    string greet = "hey";
-
-    transform(greet.begin(), greet.end(), greet.begin(), ::toupper);
-    cout << greet << endl;
-
-    string adieu = "BYE";
-
-    transform(adieu.begin(), adieu.end(), adieu.begin(), ::tolower);
-    cout << adieu << endl;
-
-    return 0;   
+    foo(5);
+    return 0;
 }
+
+
