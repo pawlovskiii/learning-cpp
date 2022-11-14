@@ -2,18 +2,13 @@
 
 int main(){
 
+    int* p_num{nullptr};
+    p_num = new int;
 
-    char message [] {'H', 'e', 'y'};
+    *p_num = 45;
 
-    for (char c : message) {
-        std::cout << c << std::endl;
-    }
 
-    int nums [] {1, 2, 3, 4, 5};
-
-    for (auto i : nums) {
-        std::cout << i << std::endl;
-    }
+    std::cout << *p_num << std::endl;
 
 
     return 0;   
