@@ -2,15 +2,19 @@
 
 int main(){
 
-    int scores[10];
 
-    for (int i{0}; i < 10; i++) {
-        scores[i] = i * i;
+    char message [] {'H', 'e', 'y'};
+
+    for (char c : message) {
+        std::cout << c << std::endl;
     }
 
-    for (int i{0}; i < 10; i++) {
-        std::cout << scores[i] << std::endl; 
+    int nums [] {1, 2, 3, 4, 5};
+
+    for (auto i : nums) {
+        std::cout << i << std::endl;
     }
+
 
     return 0;   
 }
