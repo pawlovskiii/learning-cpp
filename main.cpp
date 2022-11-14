@@ -1,15 +1,18 @@
 #include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
 
 int main(){
 
-    int* p_num{nullptr};
-    p_num = new int;
+    string greet = "hey";
 
-    *p_num = 45;
+    transform(greet.begin(), greet.end(), greet.begin(), ::toupper);
+    cout << greet << endl;
 
+    string adieu = "BYE";
 
-    std::cout << *p_num << std::endl;
-
+    transform(adieu.begin(), adieu.end(), adieu.begin(), ::tolower);
+    cout << adieu << endl;
 
     return 0;   
 }
